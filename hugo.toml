@@ -1,0 +1,12 @@
+baseURL = "https://asmrgymchalk.com/"
+languageCode = "en-us"
+title = "ASMR Gym Chalk"
+theme = "ananke"
+
+[params]
+  description = "Experience the soothing sounds of gym chalk ASMR with our curated playlist."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
