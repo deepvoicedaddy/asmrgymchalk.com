@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }}</title>
+  <!-- Primary Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ .Title }} | ASMR Gym Chalk, Crushing Sounds, and Relaxation</title>
+  <meta name="description" content="Immerse yourself in the ultimate ASMR gym chalk experience. Enjoy satisfying chalk-crushing sounds, discover tips for relaxation, and explore our curated playlist to soothe your senses." />
+  <meta name="keywords" content="ASMR, Gym Chalk, Chalk Crushing, Chalk Crumble, Relaxation, Tactile Sounds, Chalk Breaking, Sensory Meridian Response, Calm" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="{{ .Title }} | ASMR Gym Chalk, Crushing Sounds, and Relaxation" />
+  <meta property="og:description" content="Discover soothing ASMR gym chalk crushes, crumbles, and tactile textures for the ultimate relaxation experience." />
+  <meta property="og:url" content="https://asmrgymchalk.com" />
+  <meta property="og:type" content="website" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ .Title }} | ASMR Gym Chalk" />
+  <meta name="twitter:description" content="Explore mesmerizing ASMR gym chalk sounds, from crunchy textures to satisfying crumbles." />
+  
   <style>
     /* General Body Styling */
     body {
@@ -51,7 +66,7 @@
     }
 
     main .video {
-      width: 90%;
+      width: 70%;
       max-height: 80%;
       aspect-ratio: 16 / 9;
       border-radius: 20px;
@@ -92,8 +107,8 @@
       100% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
     }
 
-    /* SEO Section Styling */
-    .seo-section {
+    /* Info Section Styling */
+    .info-section {
       padding: 3rem;
       text-align: left;
       background: linear-gradient(145deg, #ffffff, #f9f9f9);
@@ -101,25 +116,25 @@
       border-radius: 10px;
     }
 
-    .seo-section h2 {
+    .info-section h2 {
       font-size: 2.4rem;
       margin-bottom: 1rem;
       color: #ff7676;
     }
 
-    .seo-section p {
+    .info-section p {
       font-size: 1.2rem;
       line-height: 1.8;
       margin-bottom: 1.5rem;
     }
 
-    .seo-section a {
+    .info-section a {
       color: #ff7676;
       text-decoration: none;
       font-weight: bold;
     }
 
-    .seo-section a:hover {
+    .info-section a:hover {
       text-decoration: underline;
     }
 
@@ -154,11 +169,39 @@
         width: 100%;
       }
 
-      .seo-section h2 {
+      .info-section h2 {
         font-size: 2rem;
       }
     }
   </style>
+  
+  <!-- Schema.org Structured Data for Article (Optional Example) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://asmrgymchalk.com"
+    },
+    "headline": "ASMR Gym Chalk - The Ultimate Destination for Relaxing Chalk Crushing Sounds",
+    "description": "Explore mesmerizing ASMR gym chalk content featuring satisfying crunch, crumble, and crackle sensations.",
+    "author": {
+      "@type": "Person",
+      "name": "ASMR Gym Chalk Team"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "ASMR Gym Chalk",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://asmrgymchalk.com/logo.png"
+      }
+    },
+    "datePublished": "2025-01-04"
+  }
+  </script>
+
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EZFK7NCNKJ"></script>
@@ -166,54 +209,120 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-EZFK7NCNKJ');
 </script>
 <body>
   {{ partial "header.html" . }}
+
   <main>
     <!-- Video Section -->
     <section class="video" id="video-container">
       <div id="video-placeholder" style="width: 100%; height: 0; padding-bottom: 56.25%; position: relative;">
-        <button id="play-video">Click to listen </button>
+        <button id="play-video">Click to listen</button>
       </div>
     </section>
 
-    <!-- SEO Copy Section -->
-    <section class="seo-section">
+    <!-- info Copy Section -->
+    <section class="info-section">
       <h2>Discover the Mesmerizing World of ASMR Gym Chalk</h2>
       <p>
-        Welcome to the ultimate destination for ASMR enthusiasts who adore the satisfying crunch, crumble, and crackle of gym chalk. Whether you're a fan of 
+        Welcome to the ultimate destination for <strong>ASMR enthusiasts</strong> who adore the satisfying crunch, crumble, and crackle of gym chalk. Whether you're a fan of 
         <strong>gym chalk crushing sounds</strong> or the calming visuals of chalk breaking apart, this is your sanctuary.
       </p>
       <p>
-        ASMR (Autonomous Sensory Meridian Response) has taken the world by storm, providing a unique way to relax, unwind, and experience a sense of calm. 
+        ASMR (<em>Autonomous Sensory Meridian Response</em>) has taken the world by storm, providing a unique way to relax, unwind, and experience a sense of calm. 
         Our curated <strong>ASMR gym chalk playlist</strong> is perfect for those who love the tactile satisfaction of chalk textures and the auditory bliss of crumbling sounds.
       </p>
       <p>
         Ready to dive in? Explore our <a href="https://asmrgymchalk.com">ASMR Gym Chalk collection</a> and discover a world of relaxation.
       </p>
+
+      <h3>Why ASMR Gym Chalk?</h3>
+      <p>
+        ASMR gym chalk videos provide a unique blend of audio and visual stimuli that can help you de-stress, focus, or simply enjoy a moment of tranquility. 
+        The gentle crunch of chalk blocks, the mesmerizing crumble, and the soothing visual of chalk dust floating in the air are all carefully curated to enhance 
+        your <strong>sensory experience</strong>.
+      </p>
+      <h3>How to Get the Most Out of ASMR Chalk Videos</h3>
+      <ul>
+        <li><strong>Find a Quiet Space:</strong> Minimize distractions and allow the chalk sounds to take center stage.</li>
+        <li><strong>Use Headphones:</strong> High-quality headphones can amplify the subtle nuances of chalk crushing.</li>
+        <li><strong>Adjust Volume:</strong> Keep the volume at a moderate level for the most immersive ASMR effect.</li>
+      </ul>
+      <!--
+      <p>
+        Incorporating <em>ASMR chalk sessions</em> into your daily routine could be your new secret weapon for beating stress and anxiety. 
+        If you’re curious about more tips, take a look at our <a href="{{ relURL "asmr-tips" }}" rel="noopener">ASMR Tips & Tricks</a>.
+      </p>
+      -->
     </section>
   </main>
+  
   {{ partial "footer.html" . }}
 
+  <!-- 1) Load the YouTube IFrame Player API asynchronously -->
+  <script src="https://www.youtube.com/iframe_api"></script>
   <script>
+    let player;
+
+    // Called automatically when the IFrame API is ready
+    function onYouTubeIframeAPIReady() {
+      // We'll create the player dynamically after the crumble effect
+    }
+
+    // Shuffle function: Plays a random track from the loaded playlist
+    function playRandomTrack() {
+      const playlist = player.getPlaylist();
+      if (playlist && playlist.length) {
+        const randomIndex = Math.floor(Math.random() * playlist.length);
+        player.playVideoAt(randomIndex);
+      }
+    }
+
+    // Fires when the YouTube player is ready
+    function onPlayerReady(event) {
+      // Immediately play a random video once loaded
+      playRandomTrack();
+    }
+
+    // Fires on state changes (e.g., when a video ends)
+    function onPlayerStateChange(event) {
+      if (event.data === YT.PlayerState.ENDED) {
+        playRandomTrack();
+      }
+    }
+
+    // 2) Keep existing click event and dust effect
     document.getElementById('play-video').addEventListener('click', function() {
       const button = this;
       button.classList.add('dust-effect');
 
+      // 3) Replace the final iframe injection with dynamic YouTube Player creation
       setTimeout(() => {
         const videoContainer = document.getElementById('video-container');
-        videoContainer.innerHTML = `
-          <iframe 
-            width="100%" 
-            height="100%" 
-            src="https://www.youtube.com/embed/xZmPMcc7VU0?autoplay=1&mute=0&playlist=xZmPMcc7VU0&loop=1&controls=1&rel=0&showinfo=0&modestbranding=1" 
-            title="Satisfying Gym Chalk ASMR - Relaxing Sounds" 
-            frameborder="0" 
-            allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowfullscreen>
-          </iframe>`;
+        videoContainer.innerHTML = '<div id="player"></div>';
+
+        // Create a new YouTube Player with your actual playlist
+        player = new YT.Player('player', {
+          height: '100%',
+          width: '100%',
+          playerVars: {
+            listType: 'playlist',
+            list: 'PLZ-AOM6mbOcBwv-eZUosqdBLAmkOzLm6K',  // Real playlist ID
+            autoplay: 1,
+            mute: 0,
+            loop: 1,
+            controls: 1,
+            rel: 0,
+            showinfo: 0,
+            modestbranding: 1,
+            enablejsapi: 1
+          },
+          events: {
+            onReady: onPlayerReady,
+            onStateChange: onPlayerStateChange
+          }
+        });
       }, 1500); // Wait for crumble effect to complete
     });
   </script>
